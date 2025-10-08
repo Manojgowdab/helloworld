@@ -15,7 +15,7 @@ public class AddressController {
     private AddressService addressService;
 
     @GetMapping
-    //get method here
+    //get method here here
     public List<AddressDto> getAddressDetails()
     {
         return addressService.getAddressDetails();
